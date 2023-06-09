@@ -7,23 +7,25 @@
 }
 
 :root {
+--text-color: white;
+--bg-url: url(imagens/mobile-maior.jpg);
 
 }
 
 .light {
-    --text-color: black;
- 
+--text-color: black;
+--bg-url: url(imagens/bg-mobile-light\ \(1080x1920\).jpg)
 }
 
 
 body {
-     background: url(imagens/mobile-maior.jpg) no-repeat top center/cover;
+     background: var(--bg-url) no-repeat top center/cover;
 }
 
 
 body * {
     font-family: 'Inter', sans-serif;
-    color: white
+    color: var(--text-color)
 }
 
 
