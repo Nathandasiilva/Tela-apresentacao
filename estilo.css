@@ -6,6 +6,15 @@
     box-sizing: border-box;
 }
 
+:root {
+
+}
+
+.light {
+    --text-color: black;
+ 
+}
+
 
 body {
      background: url(imagens/mobile-maior.jpg) no-repeat top center/cover;
