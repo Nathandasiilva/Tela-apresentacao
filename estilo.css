@@ -33,7 +33,8 @@
 /*Corpo*/
 
 body {
-     background: var(--bg-url) no-repeat top center/cover;
+    background: var(--bg-url) no-repeat top center/cover;
+    height: 100vh;
 }
 
 
@@ -91,12 +92,17 @@ body * {
     left: 0;
     z-index: 1;
     transform: translateY(-50%);
+
+    animation: slide-out 0.4s;
 }
 
  .light #switch button {
-    right: 0;
-    left: initial;
+    animation: slide-in 0.4s forwards;
  }
+
+ #switch button:hover {
+    outline: 8px solid var(--highlinght-color);
+}
 
  #switch span {
     display: block;
@@ -174,4 +180,37 @@ footer {
     padding: 6px 0;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
+}
+
+
+/* midia  queries */
+
+@media (min-width: 700px) {
+   :root {
+    --bg-url: url(imagens/bg-desktop.jpg);
+   }
+
+   .light {
+    --bg-url: url(imagens/bg-desktop-light.jpg);
+   }
+}
+
+/* Animações */
+
+@keyframes slide-in {
+    from {
+        left: 0;
+    }
+    to {
+        left: 50%;
+    }
+}
+
+@keyframes slide-out {
+    from{
+        left: 50%;
+    }
+    to{
+        left: 0;
+    }
 }
