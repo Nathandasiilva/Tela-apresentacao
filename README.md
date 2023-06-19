@@ -15,7 +15,7 @@
 <br>
 
 <p align="center">
-  <img alt="projeto DevLinks" src= width="100%">
+  <img alt="projeto DevLinks" src="imagens/Captura%20de%20tela%202023-06-19%20155050.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -31,13 +31,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O DevLinks é um projeto desenvolvido como cartão de visitas.
 
-- [Acesse o projeto finalizado, online](https://maykbrito.github.io/devlinks)
+- [Acesse o projeto finalizado, online](https://nathandasiilva.github.io/Tela-apresentacao/)
 
-- [Assistir aulas](https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito)
-
-## 🔖 Layout
-
-Você pode visualizar o layout do projeto através [DESSE LINK]. É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## :memo: Licença
 
